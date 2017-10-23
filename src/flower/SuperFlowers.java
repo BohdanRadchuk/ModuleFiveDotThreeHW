@@ -5,9 +5,9 @@ public class SuperFlowers {
     private int quantity;
     private int price;
 
-    public SuperFlowers(int quantity, int price) {
+    public SuperFlowers(int quantity ) {
         this.quantity = quantity;
-        this.price = price;
+
     }
 
     public int getQuantity() {
