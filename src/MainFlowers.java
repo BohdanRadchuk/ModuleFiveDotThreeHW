@@ -11,11 +11,11 @@ public class MainFlowers {
         Tulip tulip = new Tulip(5);
         FlowerStore flowerStore = new FlowerStore();
 
-        /*System.out.println("Shop sell");
+        System.out.println("Shop sell");
         flowerStore.show(flowerStore.sell(rose.getQuantity(),chamomile.getQuantity(),tulip.getQuantity()));
-       */ System.out.println();
+        System.out.println("\n" + flowerStore.getWallet());
         System.out.println("Shop sellSequence");
         flowerStore.show(flowerStore.sellSequence(rose.getQuantity(),chamomile.getQuantity(),tulip.getQuantity()));
-
+        System.out.println("\n" + flowerStore.getWallet());
     }
 }
