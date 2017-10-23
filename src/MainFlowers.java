@@ -7,8 +7,8 @@ public class MainFlowers {
     public static void main(String[] args) {
 
         Rose rose = new Rose(4);
-        Chamomile chamomile = new Chamomile(2);
-        Tulip tulip = new Tulip(5);
+        Chamomile chamomile = new Chamomile(1);
+        Tulip tulip = new Tulip(0);
         FlowerStore flowerStore = new FlowerStore();
 
         System.out.println("Shop sell");
