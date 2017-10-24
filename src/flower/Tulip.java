@@ -1,8 +1,6 @@
 package flower;
 
-
 public class Tulip extends SuperFlowers{
-
 
     public Tulip(int quantity) {
         super(quantity);

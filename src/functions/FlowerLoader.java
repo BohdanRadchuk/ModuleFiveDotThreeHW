@@ -10,7 +10,7 @@ import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public  class FlowerLoader {
+public abstract class FlowerLoader {
 
 private static final String SEPARATOR = ";";
 

@@ -71,7 +71,7 @@ public class FlowerStore {
         this.wallet = wallet;
     }
 
-    public void  WalletCount(ArrayList arrayList){
+    public void  WalletCount(ArrayList arrayList){                      //метод для суммирования кошелька(принимает массив и выдает сумму)
 
         for (Object arrayobject:arrayList) {
             if (arrayobject instanceof Rose)

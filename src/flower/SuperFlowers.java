@@ -14,10 +14,6 @@ public class SuperFlowers {
         return quantity;
     }
 
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
-    }
-
     public int getPrice() {
         return price;
     }
