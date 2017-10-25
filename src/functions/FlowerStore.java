@@ -6,6 +6,7 @@ import flower.Rose;
 import flower.SuperFlowers;
 import flower.Tulip;
 
+
 import java.util.ArrayList;
 
 public class FlowerStore {
@@ -34,6 +35,9 @@ public class FlowerStore {
 
            }
         WalletCount(sellBouquet);
+        FlowersSaver.save(sellBouquet);
+
+
         return sellBouquet;
     }
 
@@ -59,7 +63,7 @@ public class FlowerStore {
                 }
         }
         WalletCount(sellSequenceBouquet);
-
+        FlowersSaver.save(sellSequenceBouquet);
         return sellSequenceBouquet;
     }
 

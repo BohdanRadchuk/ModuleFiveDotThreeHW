@@ -25,5 +25,7 @@ public class MainFlowers {
         System.out.println("Shop sellSequence");
         flowerStore.show(flowerStore.sellSequence(rose.getQuantity(),chamomile.getQuantity(),tulip.getQuantity()));
         System.out.println("\n" + flowerStore.getWallet());
+        flowerStore.show(FlowerLoader.load("./files/BouquetLoads"));
+
     }
 }

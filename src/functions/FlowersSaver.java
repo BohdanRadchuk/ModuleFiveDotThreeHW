@@ -6,12 +6,13 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
+
 public abstract class FlowersSaver {
 
     private static final String SAVEPATH = "./files/BouquetSaves";
     private static final String SEPARATOR = ";";
 
-    public void save(ArrayList <SuperFlowers> saverlist){
+    public static void save (ArrayList <SuperFlowers> saverlist){
         try {
             FileWriter writer = new FileWriter(SAVEPATH);
 
